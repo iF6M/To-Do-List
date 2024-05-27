@@ -1,0 +1,113 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    padding: 30px;
+}
+
+h1 {
+    color: #333;
+    margin-bottom: 5%;
+}
+
+form {
+    margin-bottom: 30px;
+}
+
+#task {
+    padding: 10px;
+    width: 70%;
+    border: none;
+    border-radius: 5px;
+    box-shadow: 0px 0px 15px 4px rgba(0,0,0,0.06);
+    font-size: 16px;
+}
+
+input[type="submit"] {
+    padding: 10px 20px;
+    border: none;
+    background-color: #5C6BC0;
+    color: white;
+    cursor: pointer;
+    border-radius: 5px;
+    margin-left: 10px;
+    font-size: 16px;
+}
+
+input[type="submit"]:hover {
+    background-color: #3949AB;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+ul li {
+    background: #ddd; /* Change this to your preferred color */
+    padding: 10px;
+    margin-bottom: 10px;
+    border-radius: 5px; /* Rounded borders */
+    box-shadow: 0px 0px 15px 4px rgba(0,0,0,0.06);
+}
+
+.delete-btn {
+    background-color: #5C6BC0; /* Red */
+    border: none;
+    color: white;
+    padding: 2px 5px; /* Adjust this to change the size of the button */
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 14px; /* Adjust this to change the font size */
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+.delete-btn:hover {
+    background-color: #3949AB; /* Darker gray */
+}
+
+.date {
+    background-color: #5C6BC0; /* Gray */
+    color: white;
+    padding: 2px 5px;
+    border-radius: 5px;
+}
+.task-content {
+    font-size: 18px; /* Adjust this to change the font size */
+    color: #333; /* Adjust this to change the text color */
+    margin-right: 10px; /* Adjust this to add some space between the text and the date */
+}
+/* Styling the <details> element */
+details {
+    margin: 10px 0;
+    /* padding: 10px; */
+    /* border: 1px solid #ccc; */
+    /* background-color: #f9f9f9; */
+    background: #ddd; 
+    padding: 10px;
+    margin-bottom: 10px;
+    border-radius: 5px; /* Rounded borders */
+    box-shadow: 0px 0px 15px 4px rgba(0,0,0,0.06);
+    transition: all 0.3s ease;
+}
+
+/* Styling the <summary> element */
+summary {
+    font-size: 1.1em;
+    font-weight: bold;
+    cursor: pointer;
+    padding: 5px;
+    outline: none;
+}
+
+summary:hover {
+    color: #5C6BC0;
+}
+
+/* Styling the content inside <details> */
+details[open] {
+    /* border-color: #5C6BC0; */
+    background-color: #f9f9f9;
+}
