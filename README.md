@@ -1,9 +1,11 @@
 # To-Do List Web Application
 
+<small>[اقرأ الملف باللغة العربية](README.ar.md)</small>
+
+
 This web application is a simple To-Do list manager that allows users to keep track of their tasks efficiently. Users can add tasks, view their pending tasks, view completed tasks, undo completed tasks, and access additional details if there are more than 5 completed tasks.
 
 ## Technologies Used
-
 - **Frontend:** HTML, CSS, JavaScript
 - **Backend:** PHP
 - **Database:** MySQL
