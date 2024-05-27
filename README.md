@@ -31,13 +31,13 @@ This web application is a simple To-Do list manager that allows users to keep tr
 1. Clone the repository:
 
     ```bash
-    git clone <iF6M>/<List-To-Do>
+    git clone https://github.com/iF6M/To-Do-List
     ```
 
 2. Navigate to the project directory:
 
     ```bash
-    cd to-do-list
+    cd To-Do-List
     ```
 
 3. Set up your local server environment to run PHP scripts.
@@ -56,6 +56,7 @@ This web application is a simple To-Do list manager that allows users to keep tr
         done BOOLEAN DEFAULT 0
     );
     ```
+
 ## Contributing
 
 Contributions are welcome! If you'd like to contribute to this project, please follow these steps:
